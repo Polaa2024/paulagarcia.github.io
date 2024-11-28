@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Paula García </title>
+    <title>Paula García</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
-    <p id= "parrafo-especifico"> PAULA GARCÍA </p>
-    <h1> Estudiante de Desarrollo Web <br> Me encanta viajar </br> Me apasiona la cocina </br> </h1>
-    <h3> Soy de Uruguay, tengo 26 años, trabajo en el área de transporte. </h3>
-    <div class="contenedor">
-        <img src="imagenes/imgcode.jpg" alt="imagen de una computadora" class="animacion-imagen">
-        <p> Actualmente estoy estudiando en "Jóvenes a Programar"</p>
-        <img src="imagenes/imgavion.jpg" alt= "imagen de una cabina de avión" class="animacion-imagen">
-        <p> Me gusta mucho viajar conocer otras culturas, su historia, costumbres, y gastronomía </p>
-        <img src="imagenes/imglemon.jpg" alt= "imagen cocinando" class="animacion-imagen">
-        <p> Me gusta cocinar en mi tiempo libre, pastelería, todo tipo de pastas y panificados </p>
-    
-    </div>
+    <header class="text-center py-3 bg-dark text-white">
+        <h1>Paula García</h1>
+        <h3>Estudiante de Desarrollo Web</h3>
+    </header>
 
-<section id="contact">
-</ul>
-        <h3>CONTACTO</h3>
-        <ul>
-        <li><a href="#sobremi">SOBRE MI</a></li>
-        <li><a href="#proximo">PROXIMAMENTE</a></li>
-        <li><a href="#contacto">CONTACTO</a></li>
+    <main class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <img src="imagenes/imgcode.jpg" alt="imagen de una computadora" class="img-fluid rounded shadow">
+                <p>Actualmente estoy estudiando en "Jóvenes a Programar"</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="imagenes/imgavion.jpg" alt="imagen de una cabina de avión" class="img-fluid rounded shadow">
+                <p>Me gusta mucho viajar y conocer otras culturas, su historia, costumbres, y gastronomía.</p>
+            </div>
+            <div class="col-12 text-center mt-4">
+                <img src="imagenes/imglemon.jpg" alt="imagen cocinando" class="img-fluid rounded shadow">
+                <p>Me gusta cocinar en mi tiempo libre, pastelería, todo tipo de pastas y panificados.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contact" class="text-center py-4 bg-light">
+        <h3>Contacto</h3>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#sobremi" class="text-dark">Sobre Mí</a></li>
+            <li class="list-inline-item"><a href="#proximo" class="text-dark">Próximamente</a></li>
+            <li class="list-inline-item"><a href="#contacto" class="text-dark">Contacto</a></li>
         </ul>
-    </section>
+    </footer>
 
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>
